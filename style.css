@@ -1,4 +1,4 @@
-/* Generated on: Tue Dec 27 2022 23:26:47 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Dec 29 2022 23:47:26 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -284,8 +284,8 @@ input.w-button {
 html[data-w-dynpage] [data-w-cloak] {
   color: transparent !important;
 }
-/* .w-webflow-badge, */
-/* .w-webflow-badge * { 
+.w-webflow-badge,
+.w-webflow-badge * {
   position: static;
   left: auto;
   top: auto;
@@ -377,8 +377,7 @@ html[data-w-dynpage] [data-w-cloak] {
   visibility: visible !important;
   opacity: 1 !important;
   vertical-align: middle !important;
-  
-}*/
+}
 h1,
 h2,
 h3,
@@ -1993,6 +1992,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 100px;
   margin-right: 0px;
   margin-left: 0px;
   -webkit-box-pack: justify;
@@ -2022,8 +2022,21 @@ a {
 }
 
 .nav-link {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   margin-right: 0px;
   margin-left: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
   border-right: 1px solid #000;
   border-left: 1px solid #000;
   color: #333;
@@ -2055,6 +2068,15 @@ a {
   width: 100%;
   border-bottom: 2px solid #000;
   background-color: #eaebe5;
+}
+
+.brand {
+  overflow: hidden;
+  padding-top: 62%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .hero {
@@ -2110,7 +2132,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 90px;
+  margin-top: 140px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -2151,11 +2173,11 @@ a {
   font-weight: 500;
 }
 
-.h2-5-32pt {
+.h2-5 {
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: "Arboria book", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.25em;
   line-height: 100%;
   font-weight: 400;
 }
@@ -2193,7 +2215,8 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 90px;
+  max-width: 80px;
+  margin-right: 3px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2207,7 +2230,7 @@ a {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  grid-row-gap: 5px;
+  grid-row-gap: 1px;
 }
 
 .body-2 {
@@ -2215,7 +2238,7 @@ a {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  font-size: 1.2em;
+  font-size: 1.125em;
 }
 
 .body-2.bold-text {
@@ -2230,8 +2253,17 @@ a {
 }
 
 .body-2.center-align.attendees-align {
-  width: 150px;
-  max-width: 150px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
 }
 
 .schedule-info {
@@ -2244,11 +2276,15 @@ a {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  grid-row-gap: 5px;
+  grid-row-gap: 3px;
 }
 
 .title-div {
@@ -2290,16 +2326,38 @@ a {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  grid-row-gap: 32px;
+  grid-row-gap: 18px;
+}
+
+.schedule-list-div.leftlist {
+  margin-left: 10px;
+}
+
+.body-1 {
+  font-size: 0.875em;
+}
+
+.body-1.teamname {
+  font-size: 1em;
 }
 
 .responsible-image {
-  max-width: 64px;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
-.h1-5-48pt {
+.h1-5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: Arboria, sans-serif;
-  font-size: 3em;
+  font-size: 2.25em;
   text-transform: uppercase;
 }
 
@@ -2347,7 +2405,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 1200px;
+  max-width: 1100px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2373,6 +2431,7 @@ a {
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
+  align-self: stretch;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -2385,33 +2444,34 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 100%;
+  max-width: 125px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   grid-row-gap: 10px;
-  -o-object-fit: fill;
-  object-fit: fill;
 }
 
 .attendee-image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
   display: block;
-  width: 150px;
-  height: 150px;
-  max-height: 150px;
-  max-width: 150px;
+  width: 100%;
+  height: 100%;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  -o-object-fit: fill;
-  object-fit: fill;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .panel-container {
@@ -2419,11 +2479,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 1200px;
-  margin-right: auto;
-  margin-bottom: 0px;
-  margin-left: auto;
-  padding-bottom: 0px;
+  max-width: 1100px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2466,8 +2522,9 @@ a {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  color: rgba(51, 51, 51, 0.47);
-  text-decoration: none;
+  color: rgba(51, 51, 51, 0.73);
+  font-size: 14px;
+  line-height: 100%;
 }
 
 .panel-top {
@@ -2559,6 +2616,8 @@ a {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
 }
 
 .team-row.team-row-end {
@@ -2574,7 +2633,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 250px;
+  width: 100%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2584,11 +2643,18 @@ a {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  text-decoration: none;
 }
 
 .team-image {
-  max-width: 250px;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .team-row-half {
@@ -2603,6 +2669,7 @@ a {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  grid-column-gap: 12px;
 }
 
 .team-title {
@@ -2679,6 +2746,7 @@ a {
 }
 
 .location-title {
+  margin-bottom: 12px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -2699,10 +2767,19 @@ a {
 }
 
 .keynote-image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .card-link {
@@ -2730,6 +2807,7 @@ a {
   display: flex;
   width: 100vw;
   max-height: 100vh;
+  padding-top: 100vh;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -2770,10 +2848,32 @@ a {
 }
 
 .schedule-title-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 12px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+}
+
+.hero-image {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .section-animation-div {
@@ -2831,7 +2931,7 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #fc6345;
+  background-color: #333;
 }
 
 .footer-flex {
@@ -2865,7 +2965,98 @@ a {
   font-weight: 500;
 }
 
+.cursor-wrap {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40px;
+  height: 40px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+}
+
+.keynote-image-div {
+  position: relative;
+  padding-top: 30%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.cursor {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.cursor.hov {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  z-index: 1;
+  opacity: 0;
+}
+
+.link-ix {
+  cursor: none;
+}
+
+.testbody {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100ch;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.c-hover {
+  opacity: 0;
+}
+
+.teamimagediv {
+  position: relative;
+  padding-top: 129%;
+}
+
+.attendeeimagediv {
+  position: relative;
+  padding-top: 100%;
+}
+
 @media screen and (max-width: 991px) {
+  .nav-link {
+    font-size: 16px;
+  }
+
   .team-row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2888,6 +3079,10 @@ a {
 }
 
 @media screen and (max-width: 479px) {
+  .h1---section {
+    font-size: 4em;
+  }
+
   .schedule-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;

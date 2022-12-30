@@ -10967,6 +10967,154 @@ Webflow.require("ix2").init({
       ],
       createdOn: 1672174102304,
     },
+    "e-6": {
+      id: "e-6",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "MOUSE_MOVE",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-8", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+        id: "6392909460f96d5fc0434224",
+      },
+      targets: [],
+      config: [
+        {
+          continuousParameterGroupId: "a-8-p",
+          selectedAxis: "X_AXIS",
+          basedOn: "VIEWPORT",
+          reverse: false,
+          smoothing: 80,
+          restingState: 50,
+        },
+        {
+          continuousParameterGroupId: "a-8-p-2",
+          selectedAxis: "Y_AXIS",
+          basedOn: "VIEWPORT",
+          reverse: false,
+          smoothing: 80,
+          restingState: 50,
+        },
+      ],
+      createdOn: 1672351855636,
+    },
+    "e-7": {
+      id: "e-7",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "MOUSE_MOVE",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_CONTINUOUS_ACTION",
+        config: { actionListId: "a-8", affectedElements: {}, duration: 0 },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        appliesTo: "PAGE",
+        styleBlockIds: [],
+        id: "63ae1715917c0c7aa43591c0",
+      },
+      targets: [],
+      config: [
+        {
+          continuousParameterGroupId: "a-8-p",
+          selectedAxis: "X_AXIS",
+          basedOn: "VIEWPORT",
+          reverse: false,
+          smoothing: 90,
+          restingState: 50,
+        },
+        {
+          continuousParameterGroupId: "a-8-p-2",
+          selectedAxis: "Y_AXIS",
+          basedOn: "VIEWPORT",
+          reverse: false,
+          smoothing: 90,
+          restingState: 50,
+        },
+      ],
+      createdOn: 1672353679734,
+    },
+    "e-8": {
+      id: "e-8",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "MOUSE_OVER",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-9",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-9",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        selector: ".link-ix",
+        originalId:
+          "63ae1715917c0c7aa43591c0|8b1013e9-8905-3fa2-501e-afe9c4e6bfdb",
+        appliesTo: "CLASS",
+      },
+      targets: [],
+      config: {
+        loop: false,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1672353759401,
+    },
+    "e-9": {
+      id: "e-9",
+      name: "",
+      animationType: "custom",
+      eventTypeId: "MOUSE_OUT",
+      action: {
+        id: "",
+        actionTypeId: "GENERAL_START_ACTION",
+        config: {
+          delay: 0,
+          easing: "",
+          duration: 0,
+          actionListId: "a-10",
+          affectedElements: {},
+          playInReverse: false,
+          autoStopEventId: "e-8",
+        },
+      },
+      mediaQueries: ["main", "medium", "small", "tiny"],
+      target: {
+        selector: ".link-ix",
+        originalId:
+          "63ae1715917c0c7aa43591c0|8b1013e9-8905-3fa2-501e-afe9c4e6bfdb",
+        appliesTo: "CLASS",
+      },
+      targets: [],
+      config: {
+        loop: false,
+        playInReverse: false,
+        scrollOffsetValue: null,
+        scrollOffsetUnit: null,
+        delay: null,
+        direction: null,
+        effectIn: null,
+      },
+      createdOn: 1672353759402,
+    },
   },
   actionLists: {
     "a-2": {
@@ -11203,6 +11351,29 @@ Webflow.require("ix2").init({
               ],
             },
             {
+              keyframe: 87,
+              actionItems: [
+                {
+                  id: "a-6-n-4",
+                  actionTypeId: "TRANSFORM_MOVE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      useEventTarget: "CHILDREN",
+                      selector: ".sectionscroller",
+                      selectorGuids: ["0c33e96f-ac18-8d28-f529-7443645d28cf"],
+                    },
+                    yValue: -9,
+                    xUnit: "PX",
+                    yUnit: "em",
+                    zUnit: "PX",
+                  },
+                },
+              ],
+            },
+            {
               keyframe: 100,
               actionItems: [
                 {
@@ -11217,7 +11388,7 @@ Webflow.require("ix2").init({
                       selector: ".sectionscroller",
                       selectorGuids: ["0c33e96f-ac18-8d28-f529-7443645d28cf"],
                     },
-                    yValue: -13.5,
+                    yValue: -13,
                     xUnit: "PX",
                     yUnit: "em",
                     zUnit: "PX",
@@ -11229,6 +11400,188 @@ Webflow.require("ix2").init({
         },
       ],
       createdOn: 1672174106793,
+    },
+    "a-8": {
+      id: "a-8",
+      title: "Cursor Follow",
+      continuousParameterGroups: [
+        {
+          id: "a-8-p",
+          type: "MOUSE_X",
+          parameterLabel: "Mouse X",
+          continuousActionGroups: [
+            {
+              keyframe: 0,
+              actionItems: [
+                {
+                  id: "a-8-n",
+                  actionTypeId: "TRANSFORM_MOVE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      selector: ".cursor",
+                      selectorGuids: ["4cce9170-f55d-ea0e-a939-a77c2a804a3f"],
+                    },
+                    xValue: -2.5,
+                    xUnit: "vw",
+                    yUnit: "PX",
+                    zUnit: "PX",
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-8-n-2",
+                  actionTypeId: "TRANSFORM_MOVE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      selector: ".cursor",
+                      selectorGuids: ["4cce9170-f55d-ea0e-a939-a77c2a804a3f"],
+                    },
+                    xValue: 97.5,
+                    xUnit: "vw",
+                    yUnit: "PX",
+                    zUnit: "PX",
+                  },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: "a-8-p-2",
+          type: "MOUSE_Y",
+          parameterLabel: "Mouse Y",
+          continuousActionGroups: [
+            {
+              keyframe: 0,
+              actionItems: [
+                {
+                  id: "a-8-n-3",
+                  actionTypeId: "TRANSFORM_MOVE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      selector: ".cursor",
+                      selectorGuids: ["4cce9170-f55d-ea0e-a939-a77c2a804a3f"],
+                    },
+                    yValue: -2.5,
+                    xUnit: "PX",
+                    yUnit: "vh",
+                    zUnit: "PX",
+                  },
+                },
+              ],
+            },
+            {
+              keyframe: 100,
+              actionItems: [
+                {
+                  id: "a-8-n-4",
+                  actionTypeId: "TRANSFORM_MOVE",
+                  config: {
+                    delay: 0,
+                    easing: "",
+                    duration: 500,
+                    target: {
+                      selector: ".cursor",
+                      selectorGuids: ["4cce9170-f55d-ea0e-a939-a77c2a804a3f"],
+                    },
+                    yValue: 97.5,
+                    xUnit: "PX",
+                    yUnit: "vh",
+                    zUnit: "PX",
+                  },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      createdOn: 1672351901040,
+    },
+    "a-9": {
+      id: "a-9",
+      title: "Hover-ix-in",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-9-n",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 500,
+                target: {
+                  selector: ".c-hover",
+                  selectorGuids: ["838b0fdf-f101-3dd6-4199-dfb9a0c65199"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+        {
+          actionItems: [
+            {
+              id: "a-9-n-2",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 100,
+                target: {
+                  selector: ".c-hover",
+                  selectorGuids: ["838b0fdf-f101-3dd6-4199-dfb9a0c65199"],
+                },
+                value: 1,
+                unit: "",
+              },
+            },
+          ],
+        },
+      ],
+      createdOn: 1672353126636,
+      useFirstGroupAsInitialState: true,
+    },
+    "a-10": {
+      id: "a-10",
+      title: "Hover-ix-out",
+      actionItemGroups: [
+        {
+          actionItems: [
+            {
+              id: "a-10-n",
+              actionTypeId: "STYLE_OPACITY",
+              config: {
+                delay: 0,
+                easing: "",
+                duration: 10,
+                target: {
+                  selector: ".c-hover",
+                  selectorGuids: ["838b0fdf-f101-3dd6-4199-dfb9a0c65199"],
+                },
+                value: 0,
+                unit: "",
+              },
+            },
+          ],
+        },
+      ],
+      createdOn: 1672353126636,
+      useFirstGroupAsInitialState: false,
     },
   },
   site: {
