@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Sun Jan 01 2023 23:30:50 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Jan 03 2023 04:26:36 GMT+0000 (Coordinated Universal Time)  -->
 <html
   data-wf-page="6392909460f96d5fc0434224"
   data-wf-site="6392909460f96d1b76434223"
@@ -69,24 +69,9 @@
           class="nav-link w-nav-link"
           >Schedule</a
         >
-        <!-- <a
-          href="#Keynote"
-          data-w-id="26e16310-a2ee-8e5a-ca6a-d28c7e907d1e"
-          class="nav-link w-nav-link"
-          >Keynote</a
-        >
-        <a
-          href="#Attendees"
-          data-w-id="26e16310-a2ee-8e5a-ca6a-d28c7e907d1e"
-          class="nav-link w-nav-link"
-          >Attendees</a
-        >
-        <a
-          href="#Panels"
-          data-w-id="26e16310-a2ee-8e5a-ca6a-d28c7e907d1e"
-          class="nav-link w-nav-link"
-          >Panels</a
-        > -->
+        <!-- <a href="#Keynote" data-w-id="26e16310-a2ee-8e5a-ca6a-d28c7e907d1e" class="nav-link w-nav-link">Keynote</a>
+      <a href="#Attendees" data-w-id="26e16310-a2ee-8e5a-ca6a-d28c7e907d1e" class="nav-link w-nav-link">Attendees</a>
+      <a href="#Panels" data-w-id="26e16310-a2ee-8e5a-ca6a-d28c7e907d1e" class="nav-link w-nav-link">Panels</a> -->
         <a
           href="#Location"
           data-w-id="26e16310-a2ee-8e5a-ca6a-d28c7e907d1e"
@@ -120,8 +105,18 @@
         </style>
       </div>
     </div>
+    <div class="grainfade">
+      <div class="colorlayer"></div>
+      <div class="noiselayer"></div>
+    </div>
     <div class="hero-animation-div">
-      <video class="team-image" autoplay mute loop>
+      <video
+        class="team-image"
+        poster="./images/LogoHold.png"
+        autoplay
+        muted
+        loop
+      >
         <source
           src="./videos/CM23_TS_logoAnimation_loop_v5.mp4"
           type="video/mp4"
@@ -131,7 +126,7 @@
     <div id="About" class="about">
       <div class="content-section wf-section">
         <div class="text-div">
-          <p class="paragraph">
+          <p class="paragraph whitetext">
             CoMotion is a student-led motion graphics conference that brings
             together top industry professionals with Motion Media Design
             students at the Savannah College of Art and Design that includes a
@@ -185,13 +180,13 @@
         <div class="schedule-container">
           <div class="schedule-list-div leftlist">
             <div class="schedule-title-div">
-              <h1 class="h1-5">Friday</h1>
+              <h1 class="h1-5 orange">Friday</h1>
               <h2 class="h2-5">MAR / 10</h2>
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">9:00AM</div>
-                <div class="body-2">10:00AM</div>
+                <div class="body-2 scheduletimes">9:00AM</div>
+                <div class="body-2 scheduletimes">10:00AM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">COMPANY CHECK-IN</h4>
@@ -200,8 +195,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">10:15AM</div>
-                <div class="body-2">10:30AM</div>
+                <div class="body-2 scheduletimes">10:15AM</div>
+                <div class="body-2 scheduletimes">10:30AM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">OPENING STATEMENT</h4>
@@ -210,8 +205,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">10:30AM</div>
-                <div class="body-2">12:00PM</div>
+                <div class="body-2 scheduletimes">10:30AM</div>
+                <div class="body-2 scheduletimes">12:00PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">STUDENT SHOWCASE</h4>
@@ -220,8 +215,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">12:00PM</div>
-                <div class="body-2">1:00PM</div>
+                <div class="body-2 scheduletimes">12:00PM</div>
+                <div class="body-2 scheduletimes">1:00PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">LUNCH</h4>
@@ -232,8 +227,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">1:00PM</div>
-                <div class="body-2">2:00PM</div>
+                <div class="body-2 scheduletimes">1:00PM</div>
+                <div class="body-2 scheduletimes">2:00PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">KEYNOTE</h4>
@@ -242,8 +237,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">2:00PM</div>
-                <div class="body-2">3:00PM</div>
+                <div class="body-2 scheduletimes">2:00PM</div>
+                <div class="body-2 scheduletimes">3:00PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">ALUMNI PANEL</h4>
@@ -252,8 +247,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">3:00PM</div>
-                <div class="body-2">4:00PM</div>
+                <div class="body-2 scheduletimes">3:00PM</div>
+                <div class="body-2 scheduletimes">4:00PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">1 HR. BREAK</h4>
@@ -262,8 +257,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">4:00PM</div>
-                <div class="body-2">6:35PM</div>
+                <div class="body-2 scheduletimes">4:00PM</div>
+                <div class="body-2 scheduletimes">6:35PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">PORTFOLIO REVIEWS</h4>
@@ -273,13 +268,13 @@
           </div>
           <div class="schedule-list-div">
             <div class="schedule-title-div">
-              <h1 class="h1-5">Saturday</h1>
+              <h1 class="h1-5 orange">Saturday</h1>
               <h2 class="h2-5">MAR / 11</h2>
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">9:00AM</div>
-                <div class="body-2">12:00PM</div>
+                <div class="body-2 scheduletimes">9:00AM</div>
+                <div class="body-2 scheduletimes">12:00PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">PORTFOLIO REVIEWS</h4>
@@ -288,8 +283,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">12:00PM</div>
-                <div class="body-2">1:00PM</div>
+                <div class="body-2 scheduletimes">12:00PM</div>
+                <div class="body-2 scheduletimes">1:00PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">LUNCH</h4>
@@ -300,8 +295,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">1:30PM</div>
-                <div class="body-2">2:45PM</div>
+                <div class="body-2 scheduletimes">1:30PM</div>
+                <div class="body-2 scheduletimes">2:45PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">COMMUNICATION &amp; EQUITY PANEL</h4>
@@ -310,8 +305,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">2:45PM</div>
-                <div class="body-2">4:00PM</div>
+                <div class="body-2 scheduletimes">2:45PM</div>
+                <div class="body-2 scheduletimes">4:00PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">CREATIVE PROCESS PANEL</h4>
@@ -320,8 +315,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">4:00PM</div>
-                <div class="body-2">4:30PM</div>
+                <div class="body-2 scheduletimes">4:00PM</div>
+                <div class="body-2 scheduletimes">4:30PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">30 MIN. BREAK</h4>
@@ -330,8 +325,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">4:30PM</div>
-                <div class="body-2">5:45PM</div>
+                <div class="body-2 scheduletimes">4:30PM</div>
+                <div class="body-2 scheduletimes">5:45PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">EXPORING MULTIMEDIA PANEL</h4>
@@ -340,8 +335,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">5:45PM</div>
-                <div class="body-2">7:15PM</div>
+                <div class="body-2 scheduletimes">5:45PM</div>
+                <div class="body-2 scheduletimes">7:15PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">AWARDS CEREMONY</h4>
@@ -352,2345 +347,888 @@
         </div>
       </div>
     </div>
-    <!-- <div id="Keynote" class="keynote keynote_anim">
-      <div class="section-title wf-section">
-        <div class="title-div">
-          <div data-w-id="ffbbd0ee-edc6-1548-7ff0-f9045acc6e7c" class="sparkle">
-            <img
-              src="images/Pink_Sparkle.png"
-              loading="lazy"
-              width="19"
-              height="19"
-              alt=""
-            />
-          </div>
-          <div
-            data-w-id="df6b2f56-04d5-18cc-7c3a-4caf0f58d4ef"
-            class="section-animation-div"
-          >
-            <div class="sectionscroller">
-              <h1 class="h1---section">Keynote</h1>
-              <h1 class="h1---section">Keynote</h1>
-              <h1 class="h1---section">Keynote</h1>
-              <h1 class="h1---section">Keynote</h1>
-            </div>
-          </div>
-          <div
-            data-w-id="b3e07a7d-ff4f-2276-2b18-dfb84d733f98"
-            class="sparklereverse"
-          >
-            <img
-              src="images/Pink_Sparkle.png"
-              loading="lazy"
-              width="19"
-              height="19"
-              alt=""
-            />
+    <!-- <div id="Keynote" class="keynote">
+    <div class="section-title wf-section">
+      <div class="title-div">
+        <div data-w-id="ffbbd0ee-edc6-1548-7ff0-f9045acc6e7c" class="sparkle"><img src="images/Pink_Sparkle.png" loading="lazy" width="19" height="19" alt=""></div>
+        <div data-w-id="df6b2f56-04d5-18cc-7c3a-4caf0f58d4ef" class="section-animation-div">
+          <div class="sectionscroller">
+            <h1 class="h1---section">Keynote</h1>
+            <h1 class="h1---section">Keynote</h1>
+            <h1 class="h1---section">Keynote</h1>
+            <h1 class="h1---section">Keynote</h1>
           </div>
         </div>
+        <div data-w-id="b3e07a7d-ff4f-2276-2b18-dfb84d733f98" class="sparklereverse"><img src="images/Pink_Sparkle.png" loading="lazy" width="19" height="19" alt=""></div>
       </div>
-      <div class="content-section keynoteanim wf-section">
-        <div class="keynote-container">
-          <div class="keynote-image-div">
-            <img
-              src="images/Rectangle-89.png"
-              loading="lazy"
-              width="526.5"
-              sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 1439px) 47vw, 588px"
-              alt="Smiling headshot of Kirsten Noll in black and white"
-              srcset="
-                images/Rectangle-89-p-500.png  500w,
-                images/Rectangle-89-p-800.png  800w,
-                images/Rectangle-89.png       1053w
-              "
-              class="keynote-image"
-            />
+    </div>
+    <div class="content-section keynoteanim wf-section">
+      <div class="keynote-container">
+        <div class="keynote-image-div"><img src="images/Rectangle-89.png" loading="lazy" width="526.5" sizes="(max-width: 479px) 100vw, (max-width: 767px) 46vw, (max-width: 1439px) 47vw, 588px" alt="Smiling headshot of Kirsten Noll in black and white" srcset="images/Rectangle-89-p-500.png 500w, images/Rectangle-89-p-800.png 800w, images/Rectangle-89.png 1053w" class="keynote-image"></div>
+        <div class="image-desc">
+          <h1 class="h2---title">Kirsten Noll</h1>
+          <h2 class="h2-5">Executive Producer, Scholar</h2>
+          <p class="body-2">Kirsten is the Managing Executive Producer at Scholar in Los Angeles. With over a decade of creative production experience, she is passionate about design-driven and multidisciplinary narratives. Her diverse background in live-action, design/animation, and VFX means she&#x27;s seen it all. As the media landscape continues to shift, Kirsten seeks to provide mentorship and an inclusive environment within the creative production process.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="Attendees" class="attendees">
+    <div class="section-title wf-section">
+      <div class="title-div">
+        <div data-w-id="ffbbd0ee-edc6-1548-7ff0-f9045acc6e7c" class="sparkle"><img src="images/Pink_Sparkle.png" loading="lazy" width="19" height="19" alt=""></div>
+        <div data-w-id="df6b2f56-04d5-18cc-7c3a-4caf0f58d4ef" class="section-animation-div">
+          <div class="sectionscroller">
+            <h1 class="h1---section">ATTENDEES</h1>
+            <h1 class="h1---section">ATTENDEES</h1>
+            <h1 class="h1---section">ATTENDEES</h1>
+            <h1 class="h1---section">ATTENDEES</h1>
           </div>
-          <div class="image-desc">
-            <h1 class="h2---title">Kirsten Noll</h1>
-            <h2 class="h2-5">Executive Producer, Scholar</h2>
-            <p class="body-2">
-              Kirsten is the Managing Executive Producer at Scholar in Los
-              Angeles. With over a decade of creative production experience, she
-              is passionate about design-driven and multidisciplinary
-              narratives. Her diverse background in live-action,
-              design/animation, and VFX means she&#x27;s seen it all. As the
-              media landscape continues to shift, Kirsten seeks to provide
-              mentorship and an inclusive environment within the creative
-              production process.
-            </p>
+        </div>
+        <div data-w-id="b3e07a7d-ff4f-2276-2b18-dfb84d733f98" class="sparklereverse"><img src="images/Pink_Sparkle.png" loading="lazy" width="19" height="19" alt=""></div>
+      </div>
+    </div>
+    <div class="content-section wf-section">
+      <div class="attendees-container">
+        <div class="attendees-row">
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">And/Or</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">BGSTR</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Black Math</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Brand New School</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Charlie Co</div>
+            </a>
+          </div>
+        </div>
+        <div class="attendees-row">
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Cycymymy</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">dash</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Demo Duck</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Drive Studio</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Duke &amp; Duck</div>
+            </a>
+          </div>
+        </div>
+        <div class="attendees-row">
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Eido</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Fern</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Fivestone Studios</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Flavor</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Framestore</div>
+            </a>
+          </div>
+        </div>
+        <div class="attendees-row">
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Golden Wolf</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Hobbes</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Hornet</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Hue + Cry</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">HUSH</div>
+            </a>
+          </div>
+        </div>
+        <div class="attendees-row">
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Laundry Design</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Lightspeed Studios</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Los York</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Mean Flow</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Meister</div>
+            </a>
+          </div>
+        </div>
+        <div class="attendees-row">
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Meptik</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">NBC ArtWorks</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Next Now Agency</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Ordinary Folk</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Pinterest</div>
+            </a>
+          </div>
+        </div>
+        <div class="attendees-row">
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Psyop</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Ravie</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Shapes + Forms</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Sibling Rivalry</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Siegel + Gale</div>
+            </a>
+          </div>
+        </div>
+        <div class="attendees-row">
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">SMT Creative Studio</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">The Mill</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Trollback + Company</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">Work &amp; Co</div>
+            </a>
+          </div>
+          <div data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba" class="attendee-div">
+            <a data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5" href="#" target="_blank" class="card-link w-inline-block">
+              <div class="attendeeimagediv"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" width="Auto" alt="" class="attendee-image"></div>
+              <div class="body-2 center-align attendees-align">State Design</div>
+            </a>
           </div>
         </div>
       </div>
     </div>
-    <div id="Attendees" class="attendees">
-      <div class="section-title wf-section">
-        <div class="title-div">
-          <div data-w-id="ffbbd0ee-edc6-1548-7ff0-f9045acc6e7c" class="sparkle">
-            <img
-              src="images/Pink_Sparkle.png"
-              loading="lazy"
-              width="19"
-              height="19"
-              alt=""
-            />
-          </div>
-          <div
-            data-w-id="df6b2f56-04d5-18cc-7c3a-4caf0f58d4ef"
-            class="section-animation-div"
-          >
-            <div class="sectionscroller">
-              <h1 class="h1---section">ATTENDEES</h1>
-              <h1 class="h1---section">ATTENDEES</h1>
-              <h1 class="h1---section">ATTENDEES</h1>
-              <h1 class="h1---section">ATTENDEES</h1>
-            </div>
-          </div>
-          <div
-            data-w-id="b3e07a7d-ff4f-2276-2b18-dfb84d733f98"
-            class="sparklereverse"
-          >
-            <img
-              src="images/Pink_Sparkle.png"
-              loading="lazy"
-              width="19"
-              height="19"
-              alt=""
-            />
+  </div>
+  <div id="Panels" class="panels">
+    <div class="section-title wf-section">
+      <div class="title-div">
+        <div data-w-id="ffbbd0ee-edc6-1548-7ff0-f9045acc6e7c" class="sparkle"><img src="images/Pink_Sparkle.png" loading="lazy" width="19" height="19" alt=""></div>
+        <div data-w-id="df6b2f56-04d5-18cc-7c3a-4caf0f58d4ef" class="section-animation-div">
+          <div class="sectionscroller">
+            <h1 class="h1---section">PANELS</h1>
+            <h1 class="h1---section">PANELS</h1>
+            <h1 class="h1---section">PANELS</h1>
+            <h1 class="h1---section">PANELS</h1>
           </div>
         </div>
+        <div data-w-id="b3e07a7d-ff4f-2276-2b18-dfb84d733f98" class="sparklereverse"><img src="images/Pink_Sparkle.png" loading="lazy" width="19" height="19" alt=""></div>
       </div>
-      <div class="content-section wf-section">
-        <div class="attendees-container">
-          <div class="attendees-row">
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">And/Or</div>
-              </a>
+    </div>
+    <div class="content-section wf-section">
+      <div class="panel-container">
+        <div class="panel-div">
+          <div class="panel-top">
+            <h2 class="h2---title">Alumni Panel</h2>
+            <div class="body-1-subtle">Friday, March 10th | 2:00 - 3:00pm</div>
+            <div class="body-2">Whether we’re in school or at work, striking a work-life balance can be difficult. Many equate success with excessive work patterns or ‘hustle’, frequently leading to burnout or an unbalanced, unhealthy lifestyle. SCAD alumni share their insights on healthy work-life balance in school and post-graduation, and how to foster positive work habits while generating a fulfilled and rich career.</div>
+          </div>
+          <div class="panel-bottom">
+            <div class="panelist-div">
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
             </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">BGSTR</div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  Black Math
-                </div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  Brand New School
-                </div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  Charlie Co
-                </div>
-              </a>
+            <div class="panelist-div">
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
             </div>
           </div>
-          <div class="attendees-row">
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">Cycymymy</div>
-              </a>
+          <div class="panel-divider">
+            <div class="panelist-line"></div>
+            <div data-w-id="ffbbd0ee-edc6-1548-7ff0-f9045acc6e7c" class="sparkle"><img src="images/Pink_Sparkle.png" loading="lazy" width="19" height="19" alt=""></div>
+            <div class="panelist-line"></div>
+          </div>
+        </div>
+        <div class="panel-div">
+          <div class="panel-top">
+            <h2 class="h2---title">Communication &amp; Equity</h2>
+            <div class="body-1-subtle">Saturday, March 11th | 1:30 - 2:45pm</div>
+            <div class="body-2">Inclusivity and equity are at the core of any excellent leader or team environment that foster respectful and comfortable dynamics. Join this panel for insights towards equity within a team dynamic and how to appropriately represent and respect these groups through the creative process.</div>
+          </div>
+          <div class="panel-bottom">
+            <div class="panelist-div">
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
             </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">dash</div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">Demo Duck</div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  Drive Studio
-                </div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  Duke &amp; Duck
-                </div>
-              </a>
+            <div class="panelist-div">
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
             </div>
           </div>
-          <div class="attendees-row">
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">Eido</div>
-              </a>
+          <div class="panel-divider">
+            <div class="panelist-line"></div>
+            <div data-w-id="ffbbd0ee-edc6-1548-7ff0-f9045acc6e7c" class="sparkle"><img src="images/Pink_Sparkle.png" loading="lazy" width="19" height="19" alt=""></div>
+            <div class="panelist-line"></div>
+          </div>
+        </div>
+        <div class="panel-div">
+          <div class="panel-top">
+            <h2 class="h2---title">Approaching Creativity</h2>
+            <div class="body-1-subtle">Saturday, March 11th | 2:45 - 4:00pm</div>
+            <div class="body-2">All designers encounter hurdles while seeing a project to fruition. This panel discusses different methods for approaching the creative process, personal experiences with creative roadblocks, and finding inspiration in a rapidly-evolving industry.</div>
+          </div>
+          <div class="panel-bottom">
+            <div class="panelist-div">
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
             </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">Fern</div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  Fivestone Studios
-                </div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">Flavor</div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  Framestore
-                </div>
-              </a>
+            <div class="panelist-div">
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
             </div>
           </div>
-          <div class="attendees-row">
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  Golden Wolf
-                </div>
-              </a>
+          <div class="panel-divider">
+            <div class="panelist-line"></div>
+            <div data-w-id="ffbbd0ee-edc6-1548-7ff0-f9045acc6e7c" class="sparkle"><img src="images/Pink_Sparkle.png" loading="lazy" width="19" height="19" alt=""></div>
+            <div class="panelist-line"></div>
+          </div>
+        </div>
+        <div class="panel-div panel-end">
+          <div class="panel-top">
+            <h2 class="h2---title">Exploring Multimedia</h2>
+            <div class="body-1-subtle">Saturday, March 11th | 4:30 - 5:45pm</div>
+            <div class="body-2">Motion graphics is a unique field harnessing multiple expressive mediums and non-traditional creative methods. Join three studios as they share insights to individual projects harnessing multiple media techniques, exploring media combination methodology, and project development.</div>
+          </div>
+          <div class="panel-bottom">
+            <div class="panelist-div">
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
             </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">Hobbes</div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">Hornet</div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">Hue + Cry</div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">HUSH</div>
-              </a>
+            <div class="panelist-div">
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
+              <div class="body-2 bold-text">Panelist Name - Studio</div>
             </div>
           </div>
-          <div class="attendees-row">
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  Laundry Design
-                </div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  Lightspeed Studios
-                </div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">Los York</div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">Mean Flow</div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">Meister</div>
-              </a>
-            </div>
-          </div>
-          <div class="attendees-row">
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">Meptik</div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  NBC ArtWorks
-                </div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  Next Now Agency
-                </div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  Ordinary Folk
-                </div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">Pinterest</div>
-              </a>
-            </div>
-          </div>
-          <div class="attendees-row">
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">Psyop</div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">Ravie</div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  Shapes + Forms
-                </div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  Sibling Rivalry
-                </div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  Siegel + Gale
-                </div>
-              </a>
-            </div>
-          </div>
-          <div class="attendees-row">
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  SMT Creative Studio
-                </div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">The Mill</div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  Trollback + Company
-                </div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  Work &amp; Co
-                </div>
-              </a>
-            </div>
-            <div
-              data-w-id="bf701a75-831f-38e8-5a5b-df78b44bffba"
-              class="attendee-div"
-            >
-              <a
-                data-w-id="3e532865-21ba-fbd0-7c29-d83234281ae5"
-                href="#"
-                target="_blank"
-                class="card-link w-inline-block"
-              >
-                <div class="attendeeimagediv">
-                  <img
-                    src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg"
-                    loading="lazy"
-                    width="Auto"
-                    alt=""
-                    class="attendee-image"
-                  />
-                </div>
-                <div class="body-2 center-align attendees-align">
-                  State Design
-                </div>
-              </a>
-            </div>
+          <div class="panel-divider">
+            <div class="panelist-line"></div>
+            <div data-w-id="ffbbd0ee-edc6-1548-7ff0-f9045acc6e7c" class="sparkle"><img src="images/Pink_Sparkle.png" loading="lazy" width="19" height="19" alt=""></div>
+            <div class="panelist-line"></div>
           </div>
         </div>
       </div>
     </div>
-    <div id="Panels" class="panels">
-      <div class="section-title wf-section">
-        <div class="title-div">
-          <div data-w-id="ffbbd0ee-edc6-1548-7ff0-f9045acc6e7c" class="sparkle">
-            <img
-              src="images/Pink_Sparkle.png"
-              loading="lazy"
-              width="19"
-              height="19"
-              alt=""
-            />
-          </div>
-          <div
-            data-w-id="df6b2f56-04d5-18cc-7c3a-4caf0f58d4ef"
-            class="section-animation-div"
-          >
-            <div class="sectionscroller">
-              <h1 class="h1---section">PANELS</h1>
-              <h1 class="h1---section">PANELS</h1>
-              <h1 class="h1---section">PANELS</h1>
-              <h1 class="h1---section">PANELS</h1>
-            </div>
-          </div>
-          <div
-            data-w-id="b3e07a7d-ff4f-2276-2b18-dfb84d733f98"
-            class="sparklereverse"
-          >
-            <img
-              src="images/Pink_Sparkle.png"
-              loading="lazy"
-              width="19"
-              height="19"
-              alt=""
-            />
+  </div>
+  <div id="Team" class="team">
+    <div class="section-title wf-section">
+      <div class="title-div">
+        <div data-w-id="ffbbd0ee-edc6-1548-7ff0-f9045acc6e7c" class="sparkle"><img src="images/Pink_Sparkle.png" loading="lazy" width="19" height="19" alt=""></div>
+        <div data-w-id="df6b2f56-04d5-18cc-7c3a-4caf0f58d4ef" class="section-animation-div">
+          <div class="sectionscroller">
+            <h1 class="h1---section">TEAM</h1>
+            <h1 class="h1---section">TEAM</h1>
+            <h1 class="h1---section">TEAM</h1>
+            <h1 class="h1---section">TEAM</h1>
           </div>
         </div>
+        <div data-w-id="b3e07a7d-ff4f-2276-2b18-dfb84d733f98" class="sparklereverse"><img src="images/Pink_Sparkle.png" loading="lazy" width="19" height="19" alt=""></div>
       </div>
-      <div class="content-section wf-section">
-        <div class="panel-container">
-          <div class="panel-div">
-            <div class="panel-top">
-              <h2 class="h2---title">Alumni Panel</h2>
-              <div class="body-1-subtle">
-                Friday, March 10th | 2:00 - 3:00pm
-              </div>
-              <div class="body-2">
-                Whether we’re in school or at work, striking a work-life balance
-                can be difficult. Many equate success with excessive work
-                patterns or ‘hustle’, frequently leading to burnout or an
-                unbalanced, unhealthy lifestyle. SCAD alumni share their
-                insights on healthy work-life balance in school and
-                post-graduation, and how to foster positive work habits while
-                generating a fulfilled and rich career.
-              </div>
+    </div>
+    <div class="content-section wf-section">
+      <div class="team-container">
+        <div class="team-title">
+          <h2 class="h2---title">MOMELove</h2>
+        </div>
+        <div class="team-row">
+          <div class="team-row-half">
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Alexandera Marca</div>
+                <div class="body-1-subtle">Co-President</div>
+              </a>
             </div>
-            <div class="panel-bottom">
-              <div class="panelist-div">
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-              </div>
-              <div class="panelist-div">
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-              </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Cora Keene</div>
+                <div class="body-1-subtle">Co-President</div>
+              </a>
             </div>
-            <div class="panel-divider">
-              <div class="panelist-line"></div>
-              <div
-                data-w-id="ffbbd0ee-edc6-1548-7ff0-f9045acc6e7c"
-                class="sparkle"
-              >
-                <img
-                  src="images/Pink_Sparkle.png"
-                  loading="lazy"
-                  width="19"
-                  height="19"
-                  alt=""
-                />
-              </div>
-              <div class="panelist-line"></div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Lauren Neu</div>
+                <div class="body-1-subtle">Vice President</div>
+              </a>
             </div>
           </div>
-          <div class="panel-div">
-            <div class="panel-top">
-              <h2 class="h2---title">Communication &amp; Equity</h2>
-              <div class="body-1-subtle">
-                Saturday, March 11th | 1:30 - 2:45pm
-              </div>
-              <div class="body-2">
-                Inclusivity and equity are at the core of any excellent leader
-                or team environment that foster respectful and comfortable
-                dynamics. Join this panel for insights towards equity within a
-                team dynamic and how to appropriately represent and respect
-                these groups through the creative process.
-              </div>
+          <div class="team-row-half">
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Shivani Varandani</div>
+                <div class="body-1-subtle">Co-President</div>
+              </a>
             </div>
-            <div class="panel-bottom">
-              <div class="panelist-div">
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-              </div>
-              <div class="panelist-div">
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-              </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Fatema Sultan</div>
+                <div class="body-1-subtle">Treasurer</div>
+              </a>
             </div>
-            <div class="panel-divider">
-              <div class="panelist-line"></div>
-              <div
-                data-w-id="ffbbd0ee-edc6-1548-7ff0-f9045acc6e7c"
-                class="sparkle"
-              >
-                <img
-                  src="images/Pink_Sparkle.png"
-                  loading="lazy"
-                  width="19"
-                  height="19"
-                  alt=""
-                />
-              </div>
-              <div class="panelist-line"></div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Claire Lin</div>
+                <div class="body-1-subtle">Ambassador</div>
+              </a>
             </div>
           </div>
-          <div class="panel-div">
-            <div class="panel-top">
-              <h2 class="h2---title">Approaching Creativity</h2>
-              <div class="body-1-subtle">
-                Saturday, March 11th | 2:45 - 4:00pm
-              </div>
-              <div class="body-2">
-                All designers encounter hurdles while seeing a project to
-                fruition. This panel discusses different methods for approaching
-                the creative process, personal experiences with creative
-                roadblocks, and finding inspiration in a rapidly-evolving
-                industry.
-              </div>
+        </div>
+        <div class="team-row">
+          <div class="team-row-half">
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Peter Wang</div>
+                <div class="body-1-subtle">Co-President</div>
+              </a>
             </div>
-            <div class="panel-bottom">
-              <div class="panelist-div">
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-              </div>
-              <div class="panelist-div">
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-              </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Tucker Ziegler</div>
+                <div class="body-1-subtle">Co-President</div>
+              </a>
             </div>
-            <div class="panel-divider">
-              <div class="panelist-line"></div>
-              <div
-                data-w-id="ffbbd0ee-edc6-1548-7ff0-f9045acc6e7c"
-                class="sparkle"
-              >
-                <img
-                  src="images/Pink_Sparkle.png"
-                  loading="lazy"
-                  width="19"
-                  height="19"
-                  alt=""
-                />
-              </div>
-              <div class="panelist-line"></div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Samantha Woods</div>
+                <div class="body-1-subtle">Co-President</div>
+              </a>
             </div>
           </div>
-          <div class="panel-div panel-end">
-            <div class="panel-top">
-              <h2 class="h2---title">Exploring Multimedia</h2>
-              <div class="body-1-subtle">
-                Saturday, March 11th | 4:30 - 5:45pm
-              </div>
-              <div class="body-2">
-                Motion graphics is a unique field harnessing multiple expressive
-                mediums and non-traditional creative methods. Join three studios
-                as they share insights to individual projects harnessing
-                multiple media techniques, exploring media combination
-                methodology, and project development.
-              </div>
+          <div class="team-row-half">
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Harshitha Suresh</div>
+                <div class="body-1-subtle">Co-President</div>
+              </a>
             </div>
-            <div class="panel-bottom">
-              <div class="panelist-div">
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-              </div>
-              <div class="panelist-div">
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-                <div class="body-2 bold-text">Panelist Name - Studio</div>
-              </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Maria Chuiz</div>
+                <div class="body-1-subtle">Co-President</div>
+              </a>
             </div>
-            <div class="panel-divider">
-              <div class="panelist-line"></div>
-              <div
-                data-w-id="ffbbd0ee-edc6-1548-7ff0-f9045acc6e7c"
-                class="sparkle"
-              >
-                <img
-                  src="images/Pink_Sparkle.png"
-                  loading="lazy"
-                  width="19"
-                  height="19"
-                  alt=""
-                />
-              </div>
-              <div class="panelist-line"></div>
-            </div>
+            <div class="placeholder"><br>‍</div>
           </div>
         </div>
       </div>
     </div>
-    <div id="Team" class="team">
-      <div class="section-title wf-section">
-        <div class="title-div">
-          <div data-w-id="ffbbd0ee-edc6-1548-7ff0-f9045acc6e7c" class="sparkle">
-            <img
-              src="images/Pink_Sparkle.png"
-              loading="lazy"
-              width="19"
-              height="19"
-              alt=""
-            />
-          </div>
-          <div
-            data-w-id="df6b2f56-04d5-18cc-7c3a-4caf0f58d4ef"
-            class="section-animation-div"
-          >
-            <div class="sectionscroller">
-              <h1 class="h1---section">TEAM</h1>
-              <h1 class="h1---section">TEAM</h1>
-              <h1 class="h1---section">TEAM</h1>
-              <h1 class="h1---section">TEAM</h1>
-            </div>
-          </div>
-          <div
-            data-w-id="b3e07a7d-ff4f-2276-2b18-dfb84d733f98"
-            class="sparklereverse"
-          >
-            <img
-              src="images/Pink_Sparkle.png"
-              loading="lazy"
-              width="19"
-              height="19"
-              alt=""
-            />
-          </div>
+    <div class="content-section wf-section">
+      <div class="team-container">
+        <div class="team-title">
+          <h2 class="h2---title">Branding</h2>
         </div>
-      </div>
-      <div class="content-section wf-section">
-        <div class="team-container">
-          <div class="team-title">
-            <h2 class="h2---title">MOMELove</h2>
-          </div>
-          <div class="team-row">
-            <div class="team-row-half">
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Alexandera Marca</div>
-                  <div class="body-1-subtle">Co-President</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Cora Keene</div>
-                  <div class="body-1-subtle">Co-President</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Lauren Neu</div>
-                  <div class="body-1-subtle">Vice President</div>
-                </a>
-              </div>
+        <div class="team-row">
+          <div class="team-row-half">
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Aanvik Singh</div>
+                <div class="body-1-subtle">Creative Director</div>
+              </a>
             </div>
-            <div class="team-row-half">
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Shivani Varandani</div>
-                  <div class="body-1-subtle">Co-President</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Fatema Sultan</div>
-                  <div class="body-1-subtle">Treasurer</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Claire Lin</div>
-                  <div class="body-1-subtle">Ambassador</div>
-                </a>
-              </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Marly Koven</div>
+                <div class="body-1-subtle">Art Director</div>
+              </a>
+            </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Rachael Golla</div>
+                <div class="body-1-subtle">Producers</div>
+              </a>
             </div>
           </div>
-          <div class="team-row">
-            <div class="team-row-half">
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Peter Wang</div>
-                  <div class="body-1-subtle">Co-President</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Tucker Ziegler</div>
-                  <div class="body-1-subtle">Co-President</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Samantha Woods</div>
-                  <div class="body-1-subtle">Co-President</div>
-                </a>
-              </div>
+          <div class="team-row-half">
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Alexis Dow</div>
+                <div class="body-1-subtle">Producer</div>
+              </a>
             </div>
-            <div class="team-row-half">
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Harshitha Suresh</div>
-                  <div class="body-1-subtle">Co-President</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Maria Chuiz</div>
-                  <div class="body-1-subtle">Co-President</div>
-                </a>
-              </div>
-              <div class="placeholder"><br />‍</div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Tiffany Lo</div>
+                <div class="body-1-subtle">Design Lead</div>
+              </a>
+            </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Desmond Du</div>
+                <div class="body-1-subtle">Animation Lead</div>
+              </a>
             </div>
           </div>
         </div>
-      </div>
-      <div class="content-section wf-section">
-        <div class="team-container">
-          <div class="team-title">
-            <h2 class="h2---title">Branding</h2>
-          </div>
-          <div class="team-row">
-            <div class="team-row-half">
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Aanvik Singh</div>
-                  <div class="body-1-subtle">Creative Director</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Marly Koven</div>
-                  <div class="body-1-subtle">Art Director</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Rachael Golla</div>
-                  <div class="body-1-subtle">Producers</div>
-                </a>
-              </div>
+        <div class="team-row">
+          <div class="team-row-half">
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Josie Glassman</div>
+                <div class="body-1-subtle">Graphic Design Lead</div>
+              </a>
             </div>
-            <div class="team-row-half">
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Alexis Dow</div>
-                  <div class="body-1-subtle">Producer</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Tiffany Lo</div>
-                  <div class="body-1-subtle">Design Lead</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Desmond Du</div>
-                  <div class="body-1-subtle">Animation Lead</div>
-                </a>
-              </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Libby Nett</div>
+                <div class="body-1-subtle">Documentary Lead</div>
+              </a>
+            </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Stephon Mok</div>
+                <div class="body-1-subtle">Animator</div>
+              </a>
             </div>
           </div>
-          <div class="team-row">
-            <div class="team-row-half">
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Josie Glassman</div>
-                  <div class="body-1-subtle">Graphic Design Lead</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Libby Nett</div>
-                  <div class="body-1-subtle">Documentary Lead</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Stephon Mok</div>
-                  <div class="body-1-subtle">Animator</div>
-                </a>
-              </div>
+          <div class="team-row-half">
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Harshitha Suresh</div>
+                <div class="body-1-subtle">Animator</div>
+              </a>
             </div>
-            <div class="team-row-half">
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Harshitha Suresh</div>
-                  <div class="body-1-subtle">Animator</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Kyle Smuel Switzer</div>
-                  <div class="body-1-subtle">Animator</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Cathy Lin</div>
-                  <div class="body-1-subtle">Animator</div>
-                </a>
-              </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Kyle Smuel Switzer</div>
+                <div class="body-1-subtle">Animator</div>
+              </a>
             </div>
-          </div>
-          <div class="team-row">
-            <div class="team-row-half">
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Isabelle Kalyn</div>
-                  <div class="body-1-subtle">Animator</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Kaleb Sweeney</div>
-                  <div class="body-1-subtle">Animator</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Meg Aki</div>
-                  <div class="body-1-subtle">Animator</div>
-                </a>
-              </div>
-            </div>
-            <div class="team-row-half">
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Erica Kim</div>
-                  <div class="body-1-subtle">Animator</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Antara Ghosh</div>
-                  <div class="body-1-subtle">Designer</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Jessica Liou</div>
-                  <div class="body-1-subtle">Designer</div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="team-row">
-            <div class="team-row-half">
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Alexis Wang</div>
-                  <div class="body-1-subtle">Designer</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Tiffany Tedy</div>
-                  <div class="body-1-subtle">Designer</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Peter Wang</div>
-                  <div class="body-1-subtle">Designer</div>
-                </a>
-              </div>
-            </div>
-            <div class="team-row-half">
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Xinxun Liao</div>
-                  <div class="body-1-subtle">Designer</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Yining Li</div>
-                  <div class="body-1-subtle">Designer</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Punasa Sihsobhon</div>
-                  <div class="body-1-subtle">Graphic Designer</div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="team-row">
-            <div class="team-row-half">
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Meghna Shourie</div>
-                  <div class="body-1-subtle">Graphic Designer</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Nicole Lin</div>
-                  <div class="body-1-subtle">Graphic Designer</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Claire Lin</div>
-                  <div class="body-1-subtle">Graphic Designer</div>
-                </a>
-              </div>
-            </div>
-            <div class="team-row-half">
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Sophie Dalleva</div>
-                  <div class="body-1-subtle">Graphic Designer</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Stephani Sandoval</div>
-                  <div class="body-1-subtle">Graphic Designer</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Samantha Woods</div>
-                  <div class="body-1-subtle">Experiential</div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="team-row">
-            <div class="team-row-half">
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Juan Pablo Silhy</div>
-                  <div class="body-1-subtle">Experiential</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Belle Duffner</div>
-                  <div class="body-1-subtle">Web</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Amadeus Cameron</div>
-                  <div class="body-1-subtle">Web</div>
-                </a>
-              </div>
-            </div>
-            <div class="team-row-half">
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">J.C Petrofsky</div>
-                  <div class="body-1-subtle">Sound Design</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Miguel Conchas Seltzer</div>
-                  <div class="body-1-subtle">Sound Design</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Libby Nett</div>
-                  <div class="body-1-subtle">Designer</div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="team-row team-row-end">
-            <div class="team-row-half">
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Caitlyn Crooker</div>
-                  <div class="body-1-subtle">Documentation</div>
-                </a>
-              </div>
-              <div
-                data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5"
-                class="team-div"
-              >
-                <a href="#" class="card-link w-inline-block">
-                  <div class="teamimagediv">
-                    <img
-                      src="images/dwayne-the-rock-.jpg"
-                      loading="lazy"
-                      width="165"
-                      height="Auto"
-                      alt=""
-                      class="team-image"
-                    />
-                  </div>
-                  <div class="body-1 teamname">Savitri Trivedi</div>
-                  <div class="body-1-subtle">Documentation</div>
-                </a>
-              </div>
-              <div class="placeholder"><br />‍</div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Cathy Lin</div>
+                <div class="body-1-subtle">Animator</div>
+              </a>
             </div>
           </div>
         </div>
-      </div>
-      <div class="content-section wf-section">
-        <div class="team-container">
-          <div class="team-title">
-            <h2 class="h2---title">Volunteers</h2>
+        <div class="team-row">
+          <div class="team-row-half">
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Isabelle Kalyn</div>
+                <div class="body-1-subtle">Animator</div>
+              </a>
+            </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Kaleb Sweeney</div>
+                <div class="body-1-subtle">Animator</div>
+              </a>
+            </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Meg Aki</div>
+                <div class="body-1-subtle">Animator</div>
+              </a>
+            </div>
           </div>
-          <div class="team-row">
-            <div class="volunteer-div">
-              <div class="body-2 bold-text">First Last</div>
-              <div class="body-2 bold-text">First Last</div>
-              <div class="body-2 bold-text">First Last</div>
-              <div class="body-2 bold-text">First Last</div>
-              <div class="body-2 bold-text">First Last</div>
+          <div class="team-row-half">
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Erica Kim</div>
+                <div class="body-1-subtle">Animator</div>
+              </a>
             </div>
-            <div class="volunteer-div">
-              <div class="body-2 bold-text">First Last</div>
-              <div class="body-2 bold-text">First Last</div>
-              <div class="body-2 bold-text">First Last</div>
-              <div class="body-2 bold-text">First Last</div>
-              <div class="body-2 bold-text">First Last</div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Antara Ghosh</div>
+                <div class="body-1-subtle">Designer</div>
+              </a>
             </div>
-            <div class="volunteer-div">
-              <div class="body-2 bold-text">First Last</div>
-              <div class="body-2 bold-text">First Last</div>
-              <div class="body-2 bold-text">First Last</div>
-              <div class="body-2 bold-text">First Last</div>
-              <div class="body-2 bold-text">First Last</div>
-            </div>
-            <div class="volunteer-div">
-              <div class="body-2 bold-text">First Last</div>
-              <div class="body-2 bold-text">First Last</div>
-              <div class="body-2 bold-text">First Last</div>
-              <div class="body-2 bold-text">First Last</div>
-              <div class="body-2 bold-text">First Last</div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Jessica Liou</div>
+                <div class="body-1-subtle">Designer</div>
+              </a>
             </div>
           </div>
         </div>
+        <div class="team-row">
+          <div class="team-row-half">
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Alexis Wang</div>
+                <div class="body-1-subtle">Designer</div>
+              </a>
+            </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Tiffany Tedy</div>
+                <div class="body-1-subtle">Designer</div>
+              </a>
+            </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Peter Wang</div>
+                <div class="body-1-subtle">Designer</div>
+              </a>
+            </div>
+          </div>
+          <div class="team-row-half">
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Xinxun Liao</div>
+                <div class="body-1-subtle">Designer</div>
+              </a>
+            </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Yining Li</div>
+                <div class="body-1-subtle">Designer</div>
+              </a>
+            </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Punasa Sihsobhon</div>
+                <div class="body-1-subtle">Graphic Designer</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="team-row">
+          <div class="team-row-half">
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Meghna Shourie</div>
+                <div class="body-1-subtle">Graphic Designer</div>
+              </a>
+            </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Nicole Lin</div>
+                <div class="body-1-subtle">Graphic Designer</div>
+              </a>
+            </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Claire Lin</div>
+                <div class="body-1-subtle">Graphic Designer</div>
+              </a>
+            </div>
+          </div>
+          <div class="team-row-half">
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Sophie Dalleva</div>
+                <div class="body-1-subtle">Graphic Designer</div>
+              </a>
+            </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Stephani Sandoval</div>
+                <div class="body-1-subtle">Graphic Designer</div>
+              </a>
+            </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Samantha Woods</div>
+                <div class="body-1-subtle">Experiential</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="team-row">
+          <div class="team-row-half">
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Juan Pablo Silhy</div>
+                <div class="body-1-subtle">Experiential</div>
+              </a>
+            </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Belle Duffner</div>
+                <div class="body-1-subtle">Web</div>
+              </a>
+            </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Amadeus Cameron</div>
+                <div class="body-1-subtle">Web</div>
+              </a>
+            </div>
+          </div>
+          <div class="team-row-half">
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">J.C Petrofsky</div>
+                <div class="body-1-subtle">Sound Design</div>
+              </a>
+            </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Miguel Conchas Seltzer</div>
+                <div class="body-1-subtle">Sound Design</div>
+              </a>
+            </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Libby Nett</div>
+                <div class="body-1-subtle">Designer</div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="team-row team-row-end">
+          <div class="team-row-half">
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Caitlyn Crooker</div>
+                <div class="body-1-subtle">Documentation</div>
+              </a>
+            </div>
+            <div data-w-id="02a792be-ccaf-d8d3-2c06-8ec8775560f5" class="team-div">
+              <a href="#" class="card-link w-inline-block">
+                <div class="teamimagediv"><img src="images/dwayne-the-rock-.jpg" loading="lazy" width="165" height="Auto" alt="" class="team-image"></div>
+                <div class="body-1 teamname">Savitri Trivedi</div>
+                <div class="body-1-subtle">Documentation</div>
+              </a>
+            </div>
+            <div class="placeholder"><br>‍</div>
+          </div>
+        </div>
       </div>
-    </div> -->
+    </div>
+    <div class="content-section wf-section">
+      <div class="team-container">
+        <div class="team-title">
+          <h2 class="h2---title">Volunteers</h2>
+        </div>
+        <div class="team-row">
+          <div class="volunteer-div">
+            <div class="body-2 bold-text">First Last</div>
+            <div class="body-2 bold-text">First Last</div>
+            <div class="body-2 bold-text">First Last</div>
+            <div class="body-2 bold-text">First Last</div>
+            <div class="body-2 bold-text">First Last</div>
+          </div>
+          <div class="volunteer-div">
+            <div class="body-2 bold-text">First Last</div>
+            <div class="body-2 bold-text">First Last</div>
+            <div class="body-2 bold-text">First Last</div>
+            <div class="body-2 bold-text">First Last</div>
+            <div class="body-2 bold-text">First Last</div>
+          </div>
+          <div class="volunteer-div">
+            <div class="body-2 bold-text">First Last</div>
+            <div class="body-2 bold-text">First Last</div>
+            <div class="body-2 bold-text">First Last</div>
+            <div class="body-2 bold-text">First Last</div>
+            <div class="body-2 bold-text">First Last</div>
+          </div>
+          <div class="volunteer-div">
+            <div class="body-2 bold-text">First Last</div>
+            <div class="body-2 bold-text">First Last</div>
+            <div class="body-2 bold-text">First Last</div>
+            <div class="body-2 bold-text">First Last</div>
+            <div class="body-2 bold-text">First Last</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
     <div id="Location" class="location">
       <div class="section-title wf-section">
         <div class="title-div">
