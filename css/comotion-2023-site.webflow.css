@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   color: #333;
   font-size: 14px;
   line-height: 20px;
@@ -33,7 +33,7 @@ a {
   -ms-flex-align: stretch;
   align-items: stretch;
   background-color: #eaebe5;
-  font-family: "Arboria book", sans-serif;
+  font-family: 'Arboria book', sans-serif;
   font-size: 16px;
   line-height: 150%;
   font-weight: 400;
@@ -233,7 +233,7 @@ a {
 .h2-5 {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: "Arboria book", sans-serif;
+  font-family: 'Arboria book', sans-serif;
   font-size: 1.25em;
   line-height: 100%;
   font-weight: 400;
@@ -295,7 +295,7 @@ a {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  font-family: "Arboria book", sans-serif;
+  font-family: 'Arboria book', sans-serif;
   font-size: 1.125em;
   font-weight: 400;
 }
@@ -1000,7 +1000,7 @@ a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  background-color: #333;
+  background-color: #fc6345;
 }
 
 .footer-flex {
@@ -1011,27 +1011,36 @@ a {
   max-width: 1200px;
   padding-right: 10px;
   padding-left: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-justify-content: space-around;
   -ms-flex-pack: distribute;
   justify-content: space-around;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   align-self: center;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  grid-row-gap: 24px;
 }
 
 .footer-link {
   color: #eaebe5;
+  text-decoration: none;
 }
 
 .footer-text {
   font-family: Arboria, sans-serif;
   font-size: 1.5em;
-  font-style: italic;
-  font-weight: 500;
+  font-weight: 300;
+  letter-spacing: 0.05em;
 }
 
 .cursor-wrap {
@@ -1162,13 +1171,7 @@ a {
   display: flex;
   height: 50%;
   padding-bottom: 0px;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right top,
-    color-stop(27%, #ff8cc5),
-    color-stop(82%, #fc6345)
-  );
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(27%, #ff8cc5), color-stop(82%, #fc6345));
   background-image: linear-gradient(90deg, #ff8cc5 27%, #fc6345 82%);
 }
 
@@ -1208,7 +1211,7 @@ a {
   z-index: 1;
   width: 100%;
   height: 100%;
-  background-image: url("../images/white-noise.jpg");
+  background-image: url('../images/white-noise.jpg');
   background-position: 50% 0%;
   background-size: 370px;
   background-repeat: repeat;
@@ -1225,14 +1228,30 @@ a {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(47%, #000),
-    to(#eaebe5)
-  );
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(47%, #000), to(#eaebe5));
   background-image: linear-gradient(180deg, #000 47%, #eaebe5);
+}
+
+.footer-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  grid-column-gap: 24px;
+}
+
+.footerimage {
+  position: relative;
+  width: 75px;
+  height: 75px;
 }
 
 @media screen and (max-width: 991px) {
@@ -1308,43 +1327,43 @@ a {
 }
 
 @font-face {
-  font-family: "Arboria";
-  src: url("../fonts/Arboria-Bold.otf") format("opentype");
+  font-family: 'Arboria';
+  src: url('../fonts/Arboria-Bold.otf') format('opentype');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Arboria";
-  src: url("../fonts/Arboria-Black.otf") format("opentype");
+  font-family: 'Arboria';
+  src: url('../fonts/Arboria-Black.otf') format('opentype');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Arboria";
-  src: url("../fonts/Arboria-Light.otf") format("opentype");
+  font-family: 'Arboria';
+  src: url('../fonts/Arboria-Light.otf') format('opentype');
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Arboria book";
-  src: url("../fonts/Arboria-Book.otf") format("opentype");
+  font-family: 'Arboria book';
+  src: url('../fonts/Arboria-Book.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Novante";
-  src: url("../fonts/Novante.otf") format("opentype");
+  font-family: 'Novante';
+  src: url('../fonts/Novante.otf') format('opentype');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
-  font-family: "Arboria";
-  src: url("../fonts/Arboria-Medium.otf") format("opentype");
+  font-family: 'Arboria';
+  src: url('../fonts/Arboria-Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
