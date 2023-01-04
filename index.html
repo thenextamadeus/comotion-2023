@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Sun Jan 01 2023 23:30:50 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Wed Jan 04 2023 18:43:21 GMT+0000 (Coordinated Universal Time)  -->
 <html
   data-wf-page="6392909460f96d5fc0434224"
   data-wf-site="6392909460f96d1b76434223"
@@ -47,12 +47,13 @@
           ><img
             src="images/cm_logo_blackontransparent.png"
             loading="lazy"
-            sizes="(max-width: 479px) 100vw, (max-width: 767px) 40px, 100px"
+            sizes="(max-width: 767px) 75px, 100px"
             srcset="images/cm_logo_blackontransparent-p-500.png 500w"
             alt=""
             class="responsible-image"
         /></a>
-        <div class="w-nav-button">
+        <div class="spacer"></div>
+        <div class="menu-button w-nav-button">
           <div class="w-icon-nav-menu"></div>
         </div>
       </div>
@@ -86,6 +87,12 @@
           data-w-id="26e16310-a2ee-8e5a-ca6a-d28c7e907d1e"
           class="nav-link w-nav-link"
           >Panels</a
+        >
+        <a
+          href="#Team"
+          data-w-id="26e16310-a2ee-8e5a-ca6a-d28c7e907d1e"
+          class="nav-link w-nav-link"
+          >Team</a
         > -->
         <a
           href="#Location"
@@ -97,7 +104,7 @@
     </div>
     <div class="cursor-wrap">
       <div class="circlecursor">
-        <div class="drawing hov">
+        <div style="opacity: 0" class="drawing hov">
           <div class="bhalf">
             <div class="half"></div>
             <div class="half-copy"></div>
@@ -120,8 +127,18 @@
         </style>
       </div>
     </div>
+    <div class="grainfade">
+      <div class="colorlayer"></div>
+      <div class="noiselayer"></div>
+    </div>
     <div class="hero-animation-div">
-      <video class="team-image" autoplay mute loop>
+      <video
+        class="heroanim-image"
+        poster="./images/LogoHold.png"
+        autoplay
+        muted
+        loop
+      >
         <source
           src="./videos/CM23_TS_logoAnimation_loop_v5.mp4"
           type="video/mp4"
@@ -131,7 +148,7 @@
     <div id="About" class="about">
       <div class="content-section wf-section">
         <div class="text-div">
-          <p class="paragraph">
+          <p class="paragraph whitetext">
             CoMotion is a student-led motion graphics conference that brings
             together top industry professionals with Motion Media Design
             students at the Savannah College of Art and Design that includes a
@@ -154,6 +171,7 @@
               width="19"
               height="19"
               alt=""
+              class="image-2"
             />
           </div>
           <div
@@ -177,6 +195,7 @@
               width="19"
               height="19"
               alt=""
+              class="image"
             />
           </div>
         </div>
@@ -185,13 +204,13 @@
         <div class="schedule-container">
           <div class="schedule-list-div leftlist">
             <div class="schedule-title-div">
-              <h1 class="h1-5">Friday</h1>
+              <h1 class="h1-5 orange">Friday</h1>
               <h2 class="h2-5">MAR / 10</h2>
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">9:00AM</div>
-                <div class="body-2">10:00AM</div>
+                <div class="body-2 scheduletimes">9:00AM</div>
+                <div class="body-2 scheduletimes">10:00AM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">COMPANY CHECK-IN</h4>
@@ -200,8 +219,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">10:15AM</div>
-                <div class="body-2">10:30AM</div>
+                <div class="body-2 scheduletimes">10:15AM</div>
+                <div class="body-2 scheduletimes">10:30AM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">OPENING STATEMENT</h4>
@@ -210,8 +229,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">10:30AM</div>
-                <div class="body-2">12:00PM</div>
+                <div class="body-2 scheduletimes">10:30AM</div>
+                <div class="body-2 scheduletimes">12:00PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">STUDENT SHOWCASE</h4>
@@ -220,8 +239,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">12:00PM</div>
-                <div class="body-2">1:00PM</div>
+                <div class="body-2 scheduletimes">12:00PM</div>
+                <div class="body-2 scheduletimes">1:00PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">LUNCH</h4>
@@ -232,8 +251,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">1:00PM</div>
-                <div class="body-2">2:00PM</div>
+                <div class="body-2 scheduletimes">1:00PM</div>
+                <div class="body-2 scheduletimes">2:00PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">KEYNOTE</h4>
@@ -242,8 +261,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">2:00PM</div>
-                <div class="body-2">3:00PM</div>
+                <div class="body-2 scheduletimes">2:00PM</div>
+                <div class="body-2 scheduletimes">3:00PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">ALUMNI PANEL</h4>
@@ -252,8 +271,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">3:00PM</div>
-                <div class="body-2">4:00PM</div>
+                <div class="body-2 scheduletimes">3:00PM</div>
+                <div class="body-2 scheduletimes">4:00PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">1 HR. BREAK</h4>
@@ -262,8 +281,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">4:00PM</div>
-                <div class="body-2">6:35PM</div>
+                <div class="body-2 scheduletimes">4:00PM</div>
+                <div class="body-2 scheduletimes">6:35PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">PORTFOLIO REVIEWS</h4>
@@ -273,13 +292,13 @@
           </div>
           <div class="schedule-list-div">
             <div class="schedule-title-div">
-              <h1 class="h1-5">Saturday</h1>
+              <h1 class="h1-5 orange">Saturday</h1>
               <h2 class="h2-5">MAR / 11</h2>
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">9:00AM</div>
-                <div class="body-2">12:00PM</div>
+                <div class="body-2 scheduletimes">9:00AM</div>
+                <div class="body-2 scheduletimes">12:00PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">PORTFOLIO REVIEWS</h4>
@@ -288,8 +307,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">12:00PM</div>
-                <div class="body-2">1:00PM</div>
+                <div class="body-2 scheduletimes">12:00PM</div>
+                <div class="body-2 scheduletimes">1:00PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">LUNCH</h4>
@@ -300,8 +319,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">1:30PM</div>
-                <div class="body-2">2:45PM</div>
+                <div class="body-2 scheduletimes">1:30PM</div>
+                <div class="body-2 scheduletimes">2:45PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">COMMUNICATION &amp; EQUITY PANEL</h4>
@@ -310,8 +329,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">2:45PM</div>
-                <div class="body-2">4:00PM</div>
+                <div class="body-2 scheduletimes">2:45PM</div>
+                <div class="body-2 scheduletimes">4:00PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">CREATIVE PROCESS PANEL</h4>
@@ -320,8 +339,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">4:00PM</div>
-                <div class="body-2">4:30PM</div>
+                <div class="body-2 scheduletimes">4:00PM</div>
+                <div class="body-2 scheduletimes">4:30PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">30 MIN. BREAK</h4>
@@ -330,8 +349,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">4:30PM</div>
-                <div class="body-2">5:45PM</div>
+                <div class="body-2 scheduletimes">4:30PM</div>
+                <div class="body-2 scheduletimes">5:45PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">EXPORING MULTIMEDIA PANEL</h4>
@@ -340,8 +359,8 @@
             </div>
             <div class="schedule-item">
               <div class="schedule-times">
-                <div class="body-2">5:45PM</div>
-                <div class="body-2">7:15PM</div>
+                <div class="body-2 scheduletimes">5:45PM</div>
+                <div class="body-2 scheduletimes">7:15PM</div>
               </div>
               <div class="schedule-info">
                 <h4 class="h2-5">AWARDS CEREMONY</h4>
@@ -352,7 +371,7 @@
         </div>
       </div>
     </div>
-    <!-- <div id="Keynote" class="keynote keynote_anim">
+    <!-- <div id="Keynote" class="keynote">
       <div class="section-title wf-section">
         <div class="title-div">
           <div data-w-id="ffbbd0ee-edc6-1548-7ff0-f9045acc6e7c" class="sparkle">
@@ -362,6 +381,7 @@
               width="19"
               height="19"
               alt=""
+              class="image-2"
             />
           </div>
           <div
@@ -385,6 +405,7 @@
               width="19"
               height="19"
               alt=""
+              class="image"
             />
           </div>
         </div>
@@ -433,6 +454,7 @@
               width="19"
               height="19"
               alt=""
+              class="image-2"
             />
           </div>
           <div
@@ -456,6 +478,7 @@
               width="19"
               height="19"
               alt=""
+              class="image"
             />
           </div>
         </div>
@@ -1411,6 +1434,7 @@
               width="19"
               height="19"
               alt=""
+              class="image-2"
             />
           </div>
           <div
@@ -1434,6 +1458,7 @@
               width="19"
               height="19"
               alt=""
+              class="image"
             />
           </div>
         </div>
@@ -1480,6 +1505,7 @@
                   width="19"
                   height="19"
                   alt=""
+                  class="image-2"
                 />
               </div>
               <div class="panelist-line"></div>
@@ -1523,6 +1549,7 @@
                   width="19"
                   height="19"
                   alt=""
+                  class="image-2"
                 />
               </div>
               <div class="panelist-line"></div>
@@ -1566,6 +1593,7 @@
                   width="19"
                   height="19"
                   alt=""
+                  class="image-2"
                 />
               </div>
               <div class="panelist-line"></div>
@@ -1609,6 +1637,7 @@
                   width="19"
                   height="19"
                   alt=""
+                  class="image-2"
                 />
               </div>
               <div class="panelist-line"></div>
@@ -1627,6 +1656,7 @@
               width="19"
               height="19"
               alt=""
+              class="image-2"
             />
           </div>
           <div
@@ -1650,6 +1680,7 @@
               width="19"
               height="19"
               alt=""
+              class="image"
             />
           </div>
         </div>
@@ -1878,7 +1909,14 @@
                   <div class="body-1-subtle">Co-President</div>
                 </a>
               </div>
-              <div class="placeholder"><br />‍</div>
+              <div
+                data-w-id="0f6e4257-ab29-7bad-f7de-b638443b2947"
+                class="team-div"
+              >
+                <a href="#" class="card-link w-inline-block">
+                  <div class="teamimagediv"></div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -2649,6 +2687,14 @@
                 </a>
               </div>
               <div class="placeholder"><br />‍</div>
+              <div
+                data-w-id="f604da41-a6d0-a0dd-5bab-3b8be40c3063"
+                class="team-div"
+              >
+                <a href="#" class="card-link w-inline-block">
+                  <div class="teamimagediv"></div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -2701,6 +2747,7 @@
               width="19"
               height="19"
               alt=""
+              class="image-2"
             />
           </div>
           <div
@@ -2724,6 +2771,7 @@
               width="19"
               height="19"
               alt=""
+              class="image"
             />
           </div>
         </div>
@@ -2732,7 +2780,7 @@
         <div class="location-container">
           <div class="location-card">
             <div class="location-title">
-              <h2 class="h2---title">SCAD Museum of Art</h2>
+              <h2 class="h2---title orange">SCAD Museum of Art</h2>
               <div class="body-2">
                 601 Turner Boulevard<br />Savannah, GA 31407
               </div>
@@ -2789,7 +2837,7 @@
           </div>
           <div class="location-card">
             <div class="location-title">
-              <h2 class="h2---title">Arnold Hall</h2>
+              <h2 class="h2---title orange">Arnold Hall</h2>
               <div class="body-2">
                 1810 Bull Street<br />Savannah, GA, 31407
               </div>
@@ -2849,26 +2897,38 @@
     </div>
     <div class="footer wf-section">
       <div class="footer-flex">
-        <a
-          href="https://www.instagram.com/scadmomelove/"
-          target="_blank"
-          class="footer-link w-inline-block"
-        >
-          <div class="footer-text">MOMELove Instagram</div>
-        </a>
-        <a
-          href="https://www.instagram.com/scadcomotion/?hl=en"
-          target="_blank"
-          class="footer-link w-inline-block"
-        >
-          <div class="footer-text">CoMotion Instagram</div>
-        </a>
-        <a
-          href="mailto:momelove@clubs.scad.edu"
-          class="footer-link w-inline-block"
-        >
-          <div class="footer-text">Contact</div>
-        </a>
+        <div class="footer-div">
+          <a
+            href="mailto:momelove@clubs.scad.edu"
+            class="footer-link w-inline-block"
+          >
+            <div class="footer-text">momelove@clubs.scad.edu</div>
+          </a>
+        </div>
+        <div class="footer-div">
+          <a
+            href="https://momelove.com/"
+            target="_blank"
+            class="footerimage w-inline-block"
+            ><img
+              src="images/MOMELove_Logo_Transparent_White.png"
+              loading="lazy"
+              alt=""
+              class="team-image"
+          /></a>
+          <a
+            href="https://www.instagram.com/scadcomotion/?hl=en"
+            target="_blank"
+            class="footerimage w-inline-block"
+            ><img
+              src="images/Instagram-Logo.png"
+              loading="lazy"
+              width="40"
+              height="40"
+              alt=""
+              class="team-image"
+          /></a>
+        </div>
       </div>
     </div>
     <script
