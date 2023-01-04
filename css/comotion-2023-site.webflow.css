@@ -1252,10 +1252,15 @@ a {
     linear,
     left top,
     left bottom,
-    color-stop(82%, #000),
+    color-stop(80%, #000),
     to(#eaebe5)
   );
-  background-image: linear-gradient(180deg, #000 82%, #eaebe5);
+  background-image: linear-gradient(
+    180deg,
+    #000 62%,
+    rgba(45, 45, 45, 0.86) 82%,
+    #eaebe5
+  );
 }
 
 .footer-div {
