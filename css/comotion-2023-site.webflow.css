@@ -94,6 +94,10 @@ a {
   color: #333;
 }
 
+.nav-link:hover {
+  background-color: #ff8cc5;
+}
+
 .nav-link:active {
   background-color: #fc6345;
 }
@@ -407,10 +411,6 @@ a {
   margin-left: 10px;
 }
 
-.schedule-list-div.whitetext {
-  color: #eaebe5;
-}
-
 .body-1 {
   font-size: 0.875em;
 }
@@ -462,6 +462,7 @@ a {
   -ms-flex: 1;
   flex: 1;
   grid-row-gap: 24px;
+  text-align: left;
 }
 
 .keynote-container {
@@ -1033,7 +1034,7 @@ a {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  grid-row-gap: 24px;
+  grid-row-gap: 12px;
 }
 
 .footer-link {
@@ -1042,9 +1043,9 @@ a {
 }
 
 .footer-text {
-  font-family: Arboria, sans-serif;
-  font-size: 1.5em;
-  font-weight: 300;
+  font-family: "Arboria book", sans-serif;
+  font-size: 1em;
+  font-weight: 500;
   letter-spacing: 0.05em;
 }
 
@@ -1078,14 +1079,6 @@ a {
   flex: 1;
 }
 
-.testbody {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100ch;
-}
-
 .teamimagediv {
   position: relative;
   padding-top: 129%;
@@ -1110,16 +1103,25 @@ a {
 }
 
 .keynote {
+  position: static;
+  width: 80%;
+  max-height: 7%;
+  max-width: 100%;
   padding-top: 40px;
-  padding-bottom: 20px;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  padding-bottom: 40px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  border-radius: 50px;
   background-color: #eaebe5;
+  text-align: center;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
-.keynote.keynote_anim {
-  background-color: #fc6345;
-  color: #eaebe5;
+.about {
+  background-color: #000;
 }
 
 .mapiframe {
@@ -1140,20 +1142,6 @@ a {
   z-index: -1;
   background-color: #fc6345;
   opacity: 0;
-}
-
-.testdiv {
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  font-size: 6em;
-  line-height: 100%;
-  font-weight: 400;
 }
 
 .drawing {
@@ -1219,7 +1207,7 @@ a {
   position: absolute;
   z-index: -50;
   width: 100vw;
-  height: 220vh;
+  height: 102%;
 }
 
 .noiselayer {
@@ -1252,13 +1240,14 @@ a {
     linear,
     left top,
     left bottom,
-    color-stop(80%, #000),
+    color-stop(8%, #000),
+    color-stop(78%, rgba(19, 19, 19, 0.59)),
     to(#eaebe5)
   );
   background-image: linear-gradient(
     180deg,
-    #000 62%,
-    rgba(45, 45, 45, 0.86) 82%,
+    #000 8%,
+    rgba(19, 19, 19, 0.59) 78%,
     #eaebe5
   );
 }
@@ -1281,8 +1270,8 @@ a {
 
 .footerimage {
   position: relative;
-  width: 75px;
-  height: 75px;
+  width: 40px;
+  height: 40px;
 }
 
 .heroanim-image {
@@ -1306,23 +1295,6 @@ a {
   height: 19px;
 }
 
-.sparkle-large {
-  position: relative;
-  left: auto;
-  top: auto;
-  right: 0%;
-  bottom: 0%;
-}
-
-.sparkles {
-  position: absolute;
-  left: auto;
-  right: 40px;
-  padding-left: 0px;
-  background-clip: border-box;
-  -webkit-text-fill-color: inherit;
-}
-
 .image-3 {
   text-align: left;
 }
@@ -1336,21 +1308,10 @@ a {
   left: 5vw;
 }
 
-.aboutsparkle.sparklelower {
-  left: 10vw;
-  top: 10px;
-  display: none;
-}
-
-.div-block {
-  position: absolute;
-}
-
 @media screen and (min-width: 1440px) {
   .keynote {
     padding-top: 40px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
+    border-radius: 50px;
   }
 }
 
@@ -1386,6 +1347,10 @@ a {
     -ms-flex-pack: center;
     justify-content: center;
     grid-column-gap: 24px;
+  }
+
+  .hero-animation-div {
+    background-color: #000;
   }
 
   .heroanim-image {
@@ -1433,6 +1398,10 @@ a {
 
   .cursor-wrap {
     display: none;
+  }
+
+  .grainfade {
+    height: 112%;
   }
 
   .menu-button {
@@ -1578,8 +1547,9 @@ a {
   }
 
   .hero-animation-div {
-    margin-top: 15vh;
-    margin-bottom: 15vh;
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    background-color: #000;
   }
 
   .section-animation-div {
@@ -1591,7 +1561,7 @@ a {
   }
 
   .grainfade {
-    height: 400vh;
+    height: 210%;
   }
 
   .colorlayer {
