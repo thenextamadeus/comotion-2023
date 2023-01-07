@@ -902,7 +902,7 @@ a {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  background-color: #000;
+  background: #000;
 }
 
 .panel-divider {
