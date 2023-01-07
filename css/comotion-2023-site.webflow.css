@@ -902,6 +902,7 @@ a {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  background-color: #000;
 }
 
 .panel-divider {
@@ -1349,9 +1350,9 @@ a {
     grid-column-gap: 24px;
   }
 
-  .hero-animation-div {
+  /* .hero-animation-div {
     background-color: #000;
-  }
+  } */
 
   .heroanim-image {
     overflow: hidden;
@@ -1549,7 +1550,7 @@ a {
   .hero-animation-div {
     padding-top: 15vh;
     padding-bottom: 15vh;
-    background-color: #000;
+    /* background-color: #000; */
   }
 
   .section-animation-div {
