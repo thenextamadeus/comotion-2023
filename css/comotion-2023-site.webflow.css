@@ -1207,7 +1207,7 @@ a {
   position: absolute;
   z-index: -50;
   width: 100vw;
-  height: 102%;
+  height: 870px;
 }
 
 .noiselayer {
@@ -1401,7 +1401,7 @@ a {
   }
 
   .grainfade {
-    height: 112%;
+    height: 1100px;
   }
 
   .menu-button {
@@ -1561,7 +1561,7 @@ a {
   }
 
   .grainfade {
-    height: 210%;
+    height: 1500px;
   }
 
   .colorlayer {
